@@ -15,6 +15,7 @@ TITULO = "Mi tablero · P3-TA-A1"
 st.set_page_config(page_title=TITULO, page_icon="🏠", layout="wide")
 
 
+
 def buscar_raiz():
     """Sube de carpeta hasta encontrar la que contiene data/ (la raíz del repositorio)."""
     aqui = Path(__file__).resolve().parent
